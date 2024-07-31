@@ -10,7 +10,7 @@ def texttoimage(prompt):
         response = requests.post(
             f"https://api.stability.ai/v2beta/stable-image/generate/ultra",
             headers={
-                "authorization": f"Bearer sk-R3wsETrNKziSGt2OvHgsZ43PNqiviBKVrxhbQiV3eQJla5Yh",
+                "authorization": f"Bearer sk-<YOUR API KEY>",
                 "accept": "image/*"
             },
             files={"none": ''},
